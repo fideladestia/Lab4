@@ -73,3 +73,35 @@ Berikut ini adalah hasil dari programnya:
 <p> Berikut ini adalah gambar programnya:
 
 ![gambar6](ss/ss5.PNG)
+
+### penjelasannya adalah:
+i=0
+
+-diatas adalah untuk menginisiasikan variable i sama dengan 0, karena diprogram ini akan menggunakan perulangan while dan for, jadi perlu di inisiasikan agar tidak terjadi error.
+
+nama=[] nim=[] tugas=[] uts=[] uas=[] nilai_akhir=[] diatas adalah untuk mendefinisikan list nya, terdapat list untuk menampung nama, nim, tugas, uts, uas, dan nilai akhir
+
+while True: s_nama=input("Nama : ") nama.append(s_nama) s_nim=input("NIM : ") nim.append(s_nim) i_tugas=input("Nilai Tugas : ") tugas.append(i_tugas) i_uts=input("Nilai UTS : ") uts.append(i_uts) i_uas=input("Nilai UAS : ") uas.append(i_uas)
+
+-diatas adalah code untuk menginput isi dalam list tersebut, juga untuk menambahkan list jika sudah menginput 1 nama atau nilai dalam list, dengan menggunakan append dan menggunakan pengulangan while
+
+i_nilai_akhir=(int(i_tugas)*0.30)+(int(i_uts)*0.35)+(int(i_uas)*0.35) nilai_akhir.append(i_nilai_akhir)
+
+-diatas adalah code untuk menghitung nilai akhir dengan kondisi nilai akhir 30% dari nilai tugas, ditambah 35% dari nilai UTS dan juga 35% dari nilai UAS, dengan kemudian diubah persentase menjadi bentuk desimal, maka terdapat 0.30, 0.35. sedangkan untuk nilai_akhir.append adalah untuk menambahkan list dari yang telah di inputkan sebelum akhirnya di tampilkan
+
+more="" while more!="y" and more!="t": more=input("Tambah Data (y/t) ?") i+=1 if more=="t": break
+
+-sedangkan code diatas adalah untuk perintah menambahkan data dengan pertanyaan ya atau tidak, dengan definisi jika ya, maka ketikkan y pada keyboard, maka akan mengulang inputan list. dan jika tidak, ketikkan t paada keyboard, maka akan menampilkan hasil list yang telah di inputkan
+print(" Daftar Mahasiswa ") print("======================================================================================") print("| No. | Nama | NIM | Tugas | UTS | UAS | Akhir |") print("======================================================================================")
+
+diatas untuk membuat border agar terlihat rapi
+
+for n in range(i):
+print("|    ",n+1,"    |    ",nama[n],"    |   ",nim[n],"    |    ",tugas[n],"   |   ",uts[n],"    |    ",uas[n],"    |    ",nilai_akhir[n]," ")
+sedangkan yang diatas adalah untuk menampilkan hasil dari list yang telah di inputkan, dengan menggunakan perulangan for n in range.
+
+dan berikut ini adalah tampilan hasil dari code programnya:
+
+![gambar7](ss/ss6.PNG)
+
+### Sekian dan Terimakasih :)
