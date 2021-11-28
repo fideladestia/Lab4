@@ -62,5 +62,10 @@ Berikut ini adalah hasil dari programnya:
 
 ![gambar4](ss/ss4.PNG)
 
+### Praktikum Lab 4
+
+### Membuat list nilai mahasiswa
+
+<p> Berikut adalah flowchart programnya sebagai berikut
 
 
