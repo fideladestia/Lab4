@@ -31,5 +31,11 @@
 
 ![gambar2](ss/ss2.PNG)
 
+### Latihan untuk menambahkan elemen dalam list
+<p> Berikut ini gambar programnya
+
+![gambar3](ss/ss3.PNG)
+
+
 
 
