@@ -36,6 +36,31 @@
 
 ![gambar3](ss/ss3.PNG)
 
+### tambah elemen list
+
+a=[1,2,3,4,5] b=[6,7,8,9,10]
+
+### diatas adalah untuk membuat 2 list Ambil 2 bagian list A ke list B
+
+b.append(a[1:3]) print("2 bagian List A dijadikan List B:", b)
+
+### diatas adalah code untuk menambahkan list A kedalam list B dengan menggunakan perintah append tambah list b dengan string
+
+b.append("saya") print("Tambah B dengan Sring:", b)
+
+### diatas adalah untuk menambahkan list B dengan string menggunakan append
+
+tambah list b dengan 3 nilai print("Tambah list b dengan 3 nilai:", b+[11,12,13])
+
+### diatas adalah untuk menambahkan list b dengan 3 nilai dengan menggunakan arithmatic + Gabungan List B dan A
+
+c=b+a print("Gabungan list B dan A:", c)
+
+### dan yang di atas ini adalah untuk menggabungkan list B dan list A, menjadi list C
+
+Berikut ini adalah hasil dari programnya:
+
+![gambar4](ss/ss4.PNG)
 
 
 
