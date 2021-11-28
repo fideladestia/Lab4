@@ -94,13 +94,13 @@ more="" while more!="y" and more!="t": more=input("Tambah Data (y/t) ?") i+=1 if
 -sedangkan code diatas adalah untuk perintah menambahkan data dengan pertanyaan ya atau tidak, dengan definisi jika ya, maka ketikkan y pada keyboard, maka akan mengulang inputan list. dan jika tidak, ketikkan t paada keyboard, maka akan menampilkan hasil list yang telah di inputkan
 print(" Daftar Mahasiswa ") print("======================================================================================") print("| No. | Nama | NIM | Tugas | UTS | UAS | Akhir |") print("======================================================================================")
 
-diatas untuk membuat border agar terlihat rapi
+-diatas untuk membuat border agar terlihat rapi
 
 for n in range(i):
 
 print("|    ",n+1,"    |    ",nama[n],"    |   ",nim[n],"    |    ",tugas[n],"   |   ",uts[n],"    |    ",uas[n],"    |    ",nilai_akhir[n],"   |")
 
-sedangkan yang diatas adalah untuk menampilkan hasil dari list yang telah di inputkan, dengan menggunakan perulangan for n in range.
+-sedangkan yang diatas adalah untuk menampilkan hasil dari list yang telah di inputkan, dengan menggunakan perulangan for n in range.
 
 dan berikut ini adalah tampilan hasil dari code programnya:
 
