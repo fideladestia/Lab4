@@ -68,4 +68,8 @@ Berikut ini adalah hasil dari programnya:
 
 <p> Berikut adalah flowchart programnya sebagai berikut
 
+![gamar5](ss/flowchart.PNG)
 
+<p> Berikut ini adalah gambar programnya:
+
+![gambar6](ss/ss5.PNG)
