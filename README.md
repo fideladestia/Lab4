@@ -97,6 +97,7 @@ print(" Daftar Mahasiswa ") print("=============================================
 diatas untuk membuat border agar terlihat rapi
 
 for n in range(i):
+
 print("|    ",n+1,"    |    ",nama[n],"    |   ",nim[n],"    |    ",tugas[n],"   |   ",uts[n],"    |    ",uas[n],"    |    ",nilai_akhir[n],"   |")
 
 sedangkan yang diatas adalah untuk menampilkan hasil dari list yang telah di inputkan, dengan menggunakan perulangan for n in range.
