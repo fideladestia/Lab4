@@ -1,6 +1,8 @@
 # Lab4
 ## Latihan 1
+
 <p> Latihan yang pertama adalah membuat list dengan menuliskan:
+
 ```python
 list=[]
 ```
